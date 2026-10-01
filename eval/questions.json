@@ -1,0 +1,34 @@
+{
+  "answerable": [
+    {"q": "How many PTO days can I carry over to next year?", "doc": "orion_employee_handbook.pdf", "evidence": "rolls over up to a maximum of 10 days"},
+    {"q": "Are meetings allowed on Fridays?", "doc": "orion_employee_handbook.pdf", "evidence": "no internal meetings may be scheduled on Fridays"},
+    {"q": "How long is parental leave?", "doc": "orion_employee_handbook.pdf", "evidence": "16 weeks of fully paid parental leave"},
+    {"q": "What is the yearly budget for courses and conferences?", "doc": "orion_employee_handbook.pdf", "evidence": "$1,500"},
+    {"q": "How much can I spend on food per day when travelling for work?", "doc": "orion_employee_handbook.pdf", "evidence": "up to $75 per day"},
+    {"q": "When are performance reviews held?", "doc": "orion_employee_handbook.pdf", "evidence": "in March and September"},
+    {"q": "How quickly must I return my laptop when I leave the company?", "doc": "orion_employee_handbook.pdf", "evidence": "within ten business days"},
+    {"q": "What is the maximum size of a single object?", "doc": "nimbus_storage_manual.pdf", "evidence": "up to 5 TB"},
+    {"q": "How long does it take to retrieve data from archive storage?", "doc": "nimbus_storage_manual.pdf", "evidence": "retrieval takes up to 12 hours"},
+    {"q": "What happens when I delete a file in a versioned bucket?", "doc": "nimbus_storage_manual.pdf", "evidence": "adds a delete marker"},
+    {"q": "Which TLS versions are rejected?", "doc": "nimbus_storage_manual.pdf", "evidence": "older than 1.2 are rejected"},
+    {"q": "What should a client do after getting a 429 error?", "doc": "nimbus_storage_manual.pdf", "evidence": "exponential backoff"},
+    {"q": "How much does the Team plan cost?", "doc": "nimbus_storage_manual.pdf", "evidence": "$20 per user per month"},
+    {"q": "What is the support response time for critical incidents on Business?", "doc": "nimbus_storage_manual.pdf", "evidence": "one-hour response time"},
+    {"q": "When should large files use multipart upload?", "doc": "nimbus_storage_manual.pdf", "evidence": "larger than 100 MB"},
+    {"q": "What is the minimum password length?", "doc": "helix_security_policy.pdf", "evidence": "at least 14 characters"},
+    {"q": "Can I use text message codes for two-factor login?", "doc": "helix_security_policy.pdf", "evidence": "SMS codes are not an accepted second factor"},
+    {"q": "Who needs a hardware security key?", "doc": "helix_security_policy.pdf", "evidence": "required for administrators"},
+    {"q": "Can I paste confidential data into ChatGPT?", "doc": "helix_security_policy.pdf", "evidence": "never be pasted into external AI tools"},
+    {"q": "How soon must a security incident be reported?", "doc": "helix_security_policy.pdf", "evidence": "within one hour of discovery"},
+    {"q": "How fast do critical patches need to be installed?", "doc": "helix_security_policy.pdf", "evidence": "within 72 hours"},
+    {"q": "How often are access permissions reviewed?", "doc": "helix_security_policy.pdf", "evidence": "every quarter"},
+    {"q": "When does my laptop screen need to lock automatically?", "doc": "helix_security_policy.pdf", "evidence": "after five minutes of inactivity"}
+  ],
+  "unanswerable": [
+    "What is the capital of Australia?",
+    "Who won the 2018 FIFA World Cup?",
+    "How do I bake sourdough bread?",
+    "What is the stock price of Orion Labs?",
+    "Which programming language is best for game development?"
+  ]
+}
